@@ -1,0 +1,7 @@
+apiVersion: v2
+appVersion: 1.3.3
+description: |
+  A Kubernetes daemon-set to install, and confirm installation of NFS client
+  libraries.
+name: nfs-client
+version: 0.1.0

@@ -1,0 +1,4 @@
+The NFS Client is deploying on each node of your Kubernetes cluster.
+To check the status of the deployment, and to ensure that it is ready, you can use this command:
+
+  kubectl get --namespace {{ .Release.Namespace }} daemonsets {{ include "nfs-client.fullname" . }}
